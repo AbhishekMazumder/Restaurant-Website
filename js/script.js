@@ -1,9 +1,10 @@
 $(document).ready(function(){
+  
+  
   //toggler-btn
   $('.toggler-btn').click(function() {
     $('.toggler-btn').toggleClass('change');
   });
-
   /*
   $(window).scroll(function(){
     let position = $(this).scrollTop();
